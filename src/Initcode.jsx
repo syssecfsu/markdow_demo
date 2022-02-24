@@ -1,4 +1,4 @@
-export const code = `## Title
+export const mdCode = `## Title
 
 \`\`\`jsx
 function Demo() {
@@ -24,7 +24,16 @@ func main() {
 
 <image
   src="https://images.pexels.com/photos/10585990/pexels-photo-10585990.jpeg"
-  width="320"
+  width="240"
 />
+
+\`\`\`mermaid
+stateDiagram-v2
+    state if_state <<choice>>
+    [*] --> IsPositive
+    IsPositive --> if_state
+    if_state --> False: if n < 0
+    if_state --> True : if n >= 0
+\`\`\`
 
 `;
