@@ -12,4 +12,5 @@ in the screenshot.
 <img src="https://github.com/syssecfsu/markdow_demo/blob/master/public/screenshot.png?raw=true" width="800"/>
 
 This program is based on react, MUI, and react-codemirror and react-markdown-preview (by [UIW](https://github.com/uiwjs)). 
-To run the program, just type **```npm install```** then **```npm start```**.  
+To run the program, make sure you have a recent version of npm installed, and just type **```npm install```** followed by
+**```npm start```** under the main directory of the project.  
