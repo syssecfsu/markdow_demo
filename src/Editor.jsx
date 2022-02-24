@@ -110,9 +110,12 @@ const getCode = (arr = []) =>
       if (typeof dt === "string") {
         return dt;
       }
+
       if (dt.props && dt.props.children) {
         return getCode(dt.props.children);
       }
+
+      return "";
     })
     .filter(Boolean)
     .join("");
