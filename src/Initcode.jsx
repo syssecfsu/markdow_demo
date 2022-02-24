@@ -12,7 +12,7 @@ npm install @codemirror/lang-markdown --save
 npm install @codemirror/language-data --save
 \`\`\`
 
-[weisit ulr](https://uiwjs.github.io/react-codemirror/)
+[visit this url](https://uiwjs.github.io/react-codemirror/)
 
 \`\`\`go
 package main
@@ -21,4 +21,10 @@ func main() {
   fmt.Println("Hello, 世界")
 }
 \`\`\`
+
+<image
+  src="https://images.pexels.com/photos/10585990/pexels-photo-10585990.jpeg"
+  width="320"
+/>
+
 `;
