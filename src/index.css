@@ -9,6 +9,11 @@ code {
   font-family:  "SFMono-Regular", source-code-pro, Menlo, Monaco, 'Fira Code', Consolas, monospace;
 }
 
+/* remove the extra . in the task list of MarkdownPreview */
+ul.contains-task-list{
+  list-style-type: none!important;
+}
+
 ::-webkit-scrollbar {
   height: 6px;              /* height of horizontal scrollbar ← You're missing this */
   width: 6px;               /* width of vertical scrollbar */

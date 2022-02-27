@@ -164,6 +164,7 @@ function MdEditor() {
         <Grid item xs={6}>
           <Paper sx={{ height: { height }, overflow: "auto" }}>
             <MarkdownPreview
+              style={{ padding: 16 }}
               source={content}
               components={{ code: mermaidComponet }}
               linkTarget="_blank"
