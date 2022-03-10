@@ -2,7 +2,7 @@ import * as React from "react";
 import MdEditor from "./Editor";
 
 function App() {
-  return <MdEditor />;
+    return <MdEditor />;
 }
 
 export default App;
