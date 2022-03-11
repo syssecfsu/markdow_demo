@@ -1,7 +1,7 @@
 import CodeMirror from "@uiw/react-codemirror";
 import { markdown, markdownLanguage } from "@codemirror/lang-markdown";
 import { languages } from "@codemirror/language-data";
-import { oneDark } from "@codemirror/theme-one-dark";
+import { snazzy } from "./Theme";
 import { useState } from "react";
 import { mdCode } from "./Initcode";
 import { autocompletion } from "@codemirror/autocomplete";
@@ -151,7 +151,7 @@ function MdEditor() {
                     <Paper>
                         <CodeMirror
                             value={mdCode}
-                            theme={oneDark}
+                            theme={snazzy}
                             onChange={onChange}
                             height={height + "px"}
                             basicSetup
