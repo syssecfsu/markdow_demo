@@ -1,0 +1,96 @@
+body {
+	--color-white: #eff0eb;
+	--color-black: #282a36;
+	--color-red: #ff5c57;
+	--color-green: #5af78e;
+	--color-yellow: #f3f99d;
+	--color-blue: #57c7ff;
+	--color-magenta: #ff6ac1;
+	--color-cyan: #9aedfe;
+	--color-gray: #616263;
+}
+
+.cm-theme .cm-editor {
+	font-size: 16px;
+}
+
+.wmde-markdown {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size: 16px !important;
+}
+
+.wmde-markdown :is(td, th) {
+	font-size: 16px;
+}
+
+.wmde-markdown strong {
+	font-weight: 700;
+}
+
+.wmde-markdown a {
+	cursor: pointer;
+}
+
+.wmde-markdown h1 {
+	font-size: 2.5em;
+}
+
+.wmde-markdown h2 {
+	font-size: 2em;
+}
+
+.wmde-markdown h3 {
+	font-size: 1.5em;
+}
+
+.wmde-markdown :is(h1, h2, h3, h4, h5, h6) {
+	font-weight: 700;
+	color: var(--color-black);
+}
+
+.wmde-markdown img {
+	border-radius: 8px;
+}
+
+.wmde-markdown pre[class^="language-"] {
+	border-radius: 8px;
+}
+
+.wmde-markdown :is(code, kbd, pre, samp) {
+	background-color: #f8f8f8 !important;
+	font-family: monospace, monospace;
+	font-weight: normal;
+	font-size: 16px !important;
+}
+
+/* remove the extra . in the task list of MarkdownPreview */
+.wmde-markdown ul.contains-task-list {
+	list-style-type: none;
+}
+
+/* .wmde-markdown :is(.comment, .prolog, .doctype, .cdata) {
+	color: var(--color-gray) !important;
+}
+
+.wmde-markdown
+	:is(.property, .property-access, .tag, .selector, .constant, .symbol, .deleted, .maybe-class-name) {
+	color: var(--color-blue) !important;
+}
+
+.wmde-markdown :is(.string, .char, .builtin) {
+	color: var(--color-black) !important;
+}
+
+.wmde-markdown
+	:is(.property-access, .operator, .function, .boolean, .number, .selector, .class, .attr-name) {
+	color: var(--color-magenta) !important;
+}
+
+.wmde-markdown :is(.deleted, .code-line, .inserted, .variable) {
+	color: var(--color-red) !important;
+}
+
+.wmde-markdown :is(.entity, .url, .class-name, .keyword) {
+	color: var(--color-black) !important;
+} */
