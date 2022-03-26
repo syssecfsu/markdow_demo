@@ -10,7 +10,9 @@ body {
 	--color-gray: #616263;
 }
 
-.cm-theme .cm-editor {
+.cm-theme .cm-editor .cm-scroller {
+	font-family: "SFMono-Regular", source-code-pro, Menlo, Monaco, "Fira Code",
+		Consolas, monospace;
 	font-size: 16px;
 }
 
@@ -59,7 +61,8 @@ body {
 
 .wmde-markdown :is(code, kbd, pre, samp) {
 	background-color: #f8f8f8 !important;
-	font-family: monospace, monospace;
+	font-family: "SFMono-Regular", source-code-pro, Menlo, Monaco, "Fira Code",
+		Consolas, monospace;
 	font-weight: normal;
 	font-size: 16px !important;
 }
